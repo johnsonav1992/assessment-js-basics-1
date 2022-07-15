@@ -9,6 +9,7 @@ let containsSpace = false
 for (let i = 0; i < password.length; i++) {
     if (!isNaN(password[i])) {
         containsNum = true
+        break
     }
 }
 
@@ -17,8 +18,10 @@ for (let i = 0; i < password.length; i++) {
     for (let j = 0; j < ALPHA_ARRAY.length; j++) {
         if (password[i].includes(ALPHA_ARRAY[j])) {
             containsLetter = true
+            break
         }
     }
+    break
 }
 
 //check for spaces (additional check)
