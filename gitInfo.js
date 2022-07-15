@@ -79,6 +79,7 @@ let gitAddDefinition = "This command adds files to be tracked. This is considere
 
 let gitCommitDefinition = "This command creates a 'snapshot' of the files being tracked and is the last step prior to pushing to GitHub."
 
+let gitCommitCode = "git commit -m 'initial commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
